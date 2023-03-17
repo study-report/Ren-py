@@ -1,12 +1,12 @@
 ﻿image bg my_home = "./images/background/my_home.jpg"
-image bg hospital = "./images/background/hospital.jpeg"
+image bg afterschool_home = "./images/background/afterschool_home.jpg"
 image bg moring_street = "./images/background/moring_street.jpg"
 image bg moring_class = "./images/background/moring_class.jpg"
 
 define me = Character("이현준", color="#8484a3")
 
 label start:
-    scene bg my_home
+    scene bg afterschool_home
     "세상엔 많은 백엔드 프레임워크들이 있다."
     "Node.js, Spring boot, Django 등등..."
     "그 많고 좋은 프레임워크 들중 하필 내가 선택한 건 php라는 프레임워크다."
@@ -28,9 +28,9 @@ label start:
 
     "이현준은 생각을 잇지도 못한 채 쓰러졌다."
 
-    me "ㅎ..헉!"
+    scene bg my_home
 
-    scene bg hospital
+    me "ㅎ..헉!"
 
     "이현준은 깜짝 놀라며 깨어났다. 머리가 살짝 어지러웠지만 특별히 아픈 곳은 없는 것 같았다. 이현준은 병원에 가서 건강검진이라도 받아봐야겠다고 생각했다."
     "이현준은 자연스럽게 주머니에서 폰을 꺼냈다. 그런데 뭔가 이질감이 들었다."
@@ -77,4 +77,4 @@ label start:
     
     me "처음은 그걸로 해볼까.."
 
-    
+

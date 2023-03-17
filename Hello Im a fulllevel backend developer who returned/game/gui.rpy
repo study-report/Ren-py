@@ -12,7 +12,6 @@ init python:
     gui.init(1920, 1080)
 
 
-
 ################################################################################
 ## GUI 설정 변수
 ################################################################################
@@ -57,22 +56,22 @@ define gui.interface_text_color = '#ffffff'
 ## 글자와 글자 크기 ###################################################################
 
 ## 인-게임 글자에 사용됩니다.
-define gui.text_font = "SourceHanSansLite.ttf"
+define gui.text_font = "neodgm_code.ttf"
 
 ## 캐릭터의 이름에 사용됩니다.
-define gui.name_text_font = "SourceHanSansLite.ttf"
+define gui.name_text_font = "neodgm_code.ttf"
 
 ## 인터페이스에 사용됩니다.
-define gui.interface_text_font = "SourceHanSansLite.ttf"
+define gui.interface_text_font = "neodgm_code.ttf"
 
 ## 일반 대사의 글자 크기입니다.
-define gui.text_size = 33
+define gui.text_size = 32
 
 ## 캐릭터 이름의 글자 크기입니다.
-define gui.name_text_size = 45
+define gui.name_text_size = 48
 
 ## 게임의 유저 인터페이스에서 글자의 크기입니다.
-define gui.interface_text_size = 33
+define gui.interface_text_size = 32
 
 ## 게임의 유저 인터페이스에서 레이블(label)들의 글자 크기입니다.
 define gui.label_text_size = 36
@@ -81,7 +80,7 @@ define gui.label_text_size = 36
 define gui.notify_text_size = 24
 
 ## 게임의 타이틀(title) 글자의 크기입니다.
-define gui.title_text_size = 75
+define gui.title_text_size = 0
 
 
 ## 메인과 게임 메뉴들 ##################################################################
@@ -252,7 +251,7 @@ define gui.skip_ypos = 15
 define gui.notify_ypos = 68
 
 ## 선택지의 메뉴 선택 간의 간격입니다.
-define gui.choice_spacing = 33
+define gui.choice_spacing = 32
 
 ## 메인과 게임 메뉴에서 네비게이션 섹션의 버튼들 간의 간격입니다.
 define gui.navigation_spacing = 6
@@ -340,9 +339,9 @@ define config.history_length = 250
 define gui.history_height = 210
 
 ## 말하는 캐릭터의 이름을 나타내는 레이블의 위치, 너비, 그리고 정렬입니다.
-define gui.history_name_xpos = 233
+define gui.history_name_xpos = 232
 define gui.history_name_ypos = 0
-define gui.history_name_width = 233
+define gui.history_name_width = 232
 define gui.history_name_xalign = 1.0
 
 ## 대사 글자의 위치, 너비, 그리고 정렬입니다.
