@@ -1,37 +1,28 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/options.rpy", line 8, in script
-    define config.deafult_text_cps = 1
-  File "game/options.rpy", line 8, in script
-    define config.deafult_text_cps = 1
-  File "renpy/common/000namespaces.rpy", line 33, in set
-    setattr(self.nso, name, value)
-Exception: config.deafult_text_cps is not a known configuration variable.
+  File "renpy/common/00start.rpy", line 278, in script
+    python:
+ScriptError: could not find label 'start'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
   File "/Users/J1min/Documents/renpy-8.0.3-sdk/renpy/bootstrap.py", line 277, in bootstrap
     renpy.main.main()
-  File "/Users/J1min/Documents/renpy-8.0.3-sdk/renpy/main.py", line 558, in main
-    renpy.game.context().run(node)
-  File "game/options.rpy", line 8, in script
-    define config.deafult_text_cps = 1
-  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 441, in raise_
-  File "game/options.rpy", line 8, in script
-    define config.deafult_text_cps = 1
-  File "/Users/J1min/Documents/renpy-8.0.3-sdk/renpy/ast.py", line 2441, in execute
-    self.set()
-  File "/Users/J1min/Documents/renpy-8.0.3-sdk/renpy/ast.py", line 2459, in set
-    ns.set(self.varname, value)
-  File "renpy/common/000namespaces.rpy", line 33, in set
-    setattr(self.nso, name, value)
-  File "/Users/J1min/Documents/renpy-8.0.3-sdk/renpy/defaultstore.py", line 105, in __setattr__
-    raise Exception('config.%s is not a known configuration variable.' % (name))
-Exception: config.deafult_text_cps is not a known configuration variable.
+  File "/Users/J1min/Documents/renpy-8.0.3-sdk/renpy/main.py", line 660, in main
+    run(restart)
+  File "/Users/J1min/Documents/renpy-8.0.3-sdk/renpy/main.py", line 146, in run
+    renpy.execution.run_context(True)
+  File "/Users/J1min/Documents/renpy-8.0.3-sdk/renpy/execution.py", line 938, in run_context
+    context.run()
+  File "renpy/common/00start.rpy", line 278, in script
+    python:
+  File "/Users/J1min/Documents/renpy-8.0.3-sdk/renpy/script.py", line 927, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'start'.
 
 macOS-10.16-x86_64-i386-64bit x86_64
 Ren'Py 8.0.3.22090809
 안녕하세요. 회귀한 만렙 백엔드 개발자입니다. 1.0
-Fri Mar 17 11:28:22 2023
+Fri Mar 17 11:58:24 2023

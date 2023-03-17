@@ -5,7 +5,7 @@ image bg moring_class = "./images/background/moring_class.jpg"
 
 define me = Character("이현준", color="#8484a3")
 
-label prologue:
+label start:
     scene bg afterschool_home
     "세상엔 많은 백엔드 프레임워크들이 있다."
     "Node.js, Spring boot, Django 등등..."
