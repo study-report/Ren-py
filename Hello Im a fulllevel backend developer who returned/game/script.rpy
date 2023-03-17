@@ -62,9 +62,9 @@ label start:
     me "그 비참한 시절로 다신 돌아가지 않을테다."
 
     scene bg moring_street
-
     "이현준은 마음속으로 다짐하며 방 문을 나섰다."
 
+label scene2:
     scene bg moring_class
 
     "입학이 끝나고 학교가 어느정도 진정되자 제 1차 전공동아리 선정 시간이 왔다."

@@ -80,7 +80,7 @@ define gui.label_text_size = 36
 define gui.notify_text_size = 24
 
 ## 게임의 타이틀(title) 글자의 크기입니다.
-define gui.title_text_size = 0
+define gui.title_text_size = 32
 
 
 ## 메인과 게임 메뉴들 ##################################################################
